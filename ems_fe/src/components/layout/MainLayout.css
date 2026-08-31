@@ -1,0 +1,25 @@
+.main-layout {
+    min-block-size: 100vh;
+    background: #f8fafc;
+}
+
+.main-layout-body {
+    display: flex;
+    min-block-size: calc(100vh - 64px);
+}
+
+.main-content {
+    flex: 1;
+    min-inline-size: 0;
+    overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+    .main-layout-body {
+        display: block;
+    }
+
+    .main-content {
+        inline-size: 100%;
+    }
+}

@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* =========================================
+   GLOBAL STYLES
+========================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+
+    min-inline-size: 320px;
+    min-block-size: 100%;
+}
+
+body {
+    font-family:
+        system-ui,
+        "Segoe UI",
+        Roboto,
+        sans-serif;
+
+    background: #ffffff;
+    color: #0f172a;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+input,
+select,
+textarea {
+    font: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#root {
+    min-block-size: 100vh;
+}

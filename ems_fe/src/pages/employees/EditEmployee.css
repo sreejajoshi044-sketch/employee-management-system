@@ -1,0 +1,143 @@
+/* =========================================
+   EDIT EMPLOYEE PAGE
+========================================= */
+
+.edit-employee-page {
+    min-block-size: 100vh;
+    padding: 32px;
+    background: #f8fafc;
+}
+
+
+/* =========================================
+   HEADER
+========================================= */
+
+.edit-employee-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+    margin-block-end: 24px;
+}
+
+.edit-employee-header h1 {
+    margin: 0;
+
+    color: #0f172a;
+
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.edit-employee-header p {
+    margin-block-start: 6px;
+
+    color: #64748b;
+
+    font-size: 14px;
+}
+
+
+/* =========================================
+   BACK BUTTON
+========================================= */
+
+.edit-back-button {
+    padding: 9px 15px;
+
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+
+    background: #ffffff;
+    color: #475569;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+.edit-back-button:hover {
+    background: #f8fafc;
+}
+
+
+/* =========================================
+   FORM CARD
+========================================= */
+
+.edit-employee-card {
+    max-inline-size: 900px;
+
+    padding: 28px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+
+    box-shadow:
+        0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+
+/* =========================================
+   ERROR
+========================================= */
+
+.edit-employee-error {
+    margin-block-end: 20px;
+
+    padding: 12px 14px;
+
+    border: 1px solid #fecaca;
+    border-radius: 7px;
+
+    background: #fef2f2;
+    color: #dc2626;
+
+    font-size: 13px;
+}
+
+
+/* =========================================
+   LOADING
+========================================= */
+
+.edit-employee-state {
+    min-block-size: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 12px;
+
+    color: #64748b;
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 700px) {
+
+    .edit-employee-page {
+        padding: 20px;
+    }
+
+    .edit-employee-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .edit-employee-card {
+        padding: 20px;
+    }
+
+}
